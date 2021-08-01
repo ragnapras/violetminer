@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": true,
+            "optimizationMethod": "Auto",
+            "threadCount": 2
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 100.0,
+                    "enabled": false,
+                    "id": 0,
+                    "intensity": 100.0,
+                    "name": "GeForce GTX 1070"
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "wrkzcoin",
+            "disableAutoAlgoSelect": true,
+            "host": "rx.unmineable.com",
+            "niceHash": false,
+            "password": "x",
+            "port": 3333,
+            "priority": 1,
+            "rigID": "tes",
+            "ssl": false,
+            "username": "SHIB:0xcd8e792c6e480761134d8113554c07d8352aefed.Rgn000#1hj3-uycp"
+        }
+    ]
+}
